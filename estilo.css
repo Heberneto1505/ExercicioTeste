@@ -1,0 +1,108 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    border-bottom: solid 2px rgb(167, 166, 166);
+}
+.cabecalho_img{
+    width: 200px;
+}
+.cabecalho_cxs{
+    display: flex;
+    gap: 10px;
+}
+.cabecalho_cx1{
+    text-decoration: none;
+    border: solid 2px black;
+    color: black;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.cabecalho_cx2{
+    text-decoration: none;
+    border: solid 2px black;
+    background-color: black;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: solid 2px rgb(167, 166, 166);
+    gap: 20px;
+    padding: 20px;
+}
+.info_titulo{
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+.info_paragrafo{
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+}
+.caixa_preto_branca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.caixa_branca{
+    border: solid 2px black;
+    padding: 10px 20px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.caixa_preto{
+    border: solid 2px black;
+    padding: 10px 20px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.planos_cx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.planos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgb(85, 85, 85);
+    border-radius: 10px;
+    padding: 30px 0px;
+    gap: 30px;
+    
+}
+.planos_img{
+    
+    width: 50px;
+    border: solid 2px rgb(85, 85, 85);
+    border-radius: 50%;
+}
+.planos_titulo{
+    font-weight: bold;
+}
+.planos_texto{
+    color: rgb(105, 105, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
